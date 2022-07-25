@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>gap</title>
 </head>
 
-<link rel="stylesheet" href="css/grid.css">
+<link rel="stylesheet" href="css/gap.css">
 
 
 <body>
 
+
+    <br><br><br>
+    <p>display: grid;</p>
+    <p>grid-template-columns: 100px auto 100px;</p>
+    <p>grid-template-rows: 150px 150px;</p>
     <div class="container">
         <div>1</div>
         <div>2</div>
@@ -21,11 +26,13 @@
         <div>6</div>
     </div>
 
-    
     <br><br><br>
     <p>display: grid;</p>
     <p>grid-template-columns: 100px auto 100px;</p>
-    <div class="container" style="display: grid; grid-template-columns: 100px auto 100px;">
+    <p>grid-template-rows: 150px 150px;</p>
+    <p>column-gap: 10px;</p>
+    <p>row-gap: 10px;</p>
+    <div class="container container1">
         <div>1</div>
         <div>2</div>
         <div>3</div>
@@ -33,13 +40,13 @@
         <div>5</div>
         <div>6</div>
     </div>
-
 
     <br><br><br>
     <p>display: grid;</p>
     <p>grid-template-columns: 100px auto 100px;</p>
     <p>grid-template-rows: 150px 150px;</p>
-    <div class="container" style="display: grid; grid-template-columns: 100px auto 100px; grid-template-rows: 150px 150px;">
+    <p>gap: 15px;</p>
+    <div class="container container2">
         <div>1</div>
         <div>2</div>
         <div>3</div>
@@ -47,6 +54,10 @@
         <div>5</div>
         <div>6</div>
     </div>
+
+
+
+
 
 
 </body>
