@@ -1,0 +1,65 @@
+html, body{
+    background-color: #1f1e1d;
+    margin: 10px;
+}
+
+p{
+    color: white;
+}
+
+
+.container div:nth-child(1n){
+    background-color: #96ceb4;
+}
+
+.container div:nth-child(3n){
+    background-color: #88d8b0;
+}
+
+.container div:nth-child(2n){
+    background-color: #ff6f69;
+}
+
+.container div:nth-child(4n){
+    background-color: #ffcc5c;
+}
+
+
+
+
+.container{
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;   
+}
+
+
+
+.container1{
+    display: grid; 
+    gap: 5px;
+    grid-template-columns: repeat(6,1fr); 
+    grid-template-rows: repeat(3,100px);
+}
+
+.container2{
+    display: grid; 
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit,1fr); 
+    grid-template-rows: repeat(3,100px);
+}
+
+
+.container3{
+    display: grid; 
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit,100px); 
+    grid-template-rows: repeat(3,100px);
+}
+
+.container4{
+    display: grid; 
+    gap: 5px;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr)); 
+    grid-template-rows: repeat(3,100px);
+}
